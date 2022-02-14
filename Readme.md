@@ -72,6 +72,7 @@ Login into your gcp account and verify that the following resources with the men
 You may verify the functionality by manually triggering the cloud fucntion http endpoint from your browser.
 
 [_http://us-east1-`your-projectID`.cloudfunctions.net/etl_function/?a=`your-projectID`&&b=covidDataset&&c=covid-table_](_http://us-east1-`your-projectID`.cloudfunctions.net/etl_function/?a=`your-projectID`&&b=covidDataset&&c=covid-table_)
+
 ** _Note: Please replace "_your-projectID_" with the projectID of your project in your GCP accout._
 
 You can now verify the functionality of the ETL pipeline by previewing the BigQuery table in the dataset which will now be including the first 100 records from the csv after the first invocation.
